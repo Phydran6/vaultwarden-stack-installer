@@ -1,5 +1,13 @@
 # Vaultwarden Stack Installer
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/Phydran6/vaultwarden-stack-installer?style=flat)](https://github.com/Phydran6/vaultwarden-stack-installer/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/Phydran6/vaultwarden-stack-installer)](https://github.com/Phydran6/vaultwarden-stack-installer/issues)
+
+**[GitHub Repository](https://github.com/Phydran6/vaultwarden-stack-installer)** · [Setup Guide](docs/setup.md) · [Reverse Proxy](docs/reverse-proxy.md) · [Wildcard Cert](docs/wildcard-cert.md) · [Changelog](CHANGELOG.md) · [License](LICENSE)
+
+---
+
 > One-shot installer script for a self-hosted Vaultwarden password manager and an optional supporting Docker stack on Debian 13.
 
 This script automates a clean Vaultwarden deployment on a fresh Debian 13 VM, with optional add-ons for SSL/reverse proxy, container management, and automated updates. All interactive prompts have sensible defaults with timeouts so the script can run hands-off if desired.
